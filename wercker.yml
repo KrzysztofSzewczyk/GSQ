@@ -1,0 +1,10 @@
+
+box: debian
+build:
+  steps:
+    - script:
+        name: make-all
+        code: |
+          sudo apt-get update
+          echo Y | sudo apt-get install build-essentials
+          g++ web/gsqasm.cpp -o web/gsqasm
