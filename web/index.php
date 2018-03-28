@@ -12,6 +12,8 @@ if(!file_exists('gasm')) {
 	system('g++ gsqasm.cpp -o gasm');
 }
 
+system('ulimit -Sv 50000'); //Save most computers from annihilation in case of error.
+
 $process = proc_open('./gasm', $descriptorspec, $pipes, $cwd, $env);
 
 if (!isset($_POST['input'])) {
