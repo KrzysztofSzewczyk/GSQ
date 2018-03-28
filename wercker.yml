@@ -6,5 +6,5 @@ build:
         name: make-all
         code: |
           sudo apt-get update
-          echo Y | sudo apt-get install build-essentials
+          echo Y | sudo apt-get install build-essential
           g++ web/gsqasm.cpp -o web/gsqasm
