@@ -3,6 +3,7 @@
   <img src="https://github.com/kspalaiologos/GSQ-Assembly/blob/master/Logo.png">
 </p>
 <a href="https://travis-ci.org/kspalaiologos/GSQ-Assembly"><img src="https://travis-ci.org/kspalaiologos/GSQ-Assembly.svg?branch=master"></a>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/kspalaiologos/GSQ-Assembly.svg?branch=master)](https://travis-ci.org/kspalaiologos/GSQ-Assembly)
 
