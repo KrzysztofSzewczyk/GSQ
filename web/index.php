@@ -8,7 +8,10 @@ $descriptorspec = array(
 $cwd = 'NULL';
 $env = array('IN_PHP' => 'true');
 
-system('ulimit -Sv 5000');
+if(!file_exists('gasm')) {
+	system('g++ gsqasm.cpp -o gasm');
+}
+
 $process = proc_open('./gasm', $descriptorspec, $pipes, $cwd, $env);
 
 if (!isset($_POST['input'])) {
