@@ -5,4 +5,3 @@ addons:
   apt:
     packages:
         - build-essential
-        - gcc-4.6-base cpp-4.6 lobgompl libquadmath0 libc6-dev
