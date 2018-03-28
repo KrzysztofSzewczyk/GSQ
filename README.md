@@ -2,6 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/kspalaiologos/GSQ-Assembly.svg?branch=master)](https://travis-ci.org/kspalaiologos/GSQ-Assembly)
 [![Join the chat at https://gitter.im/GSQ-Architecture/Lobby](https://badges.gitter.im/GSQ-Architecture/Lobby.svg)](https://gitter.im/GSQ-Architecture/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Codeclimate](https://api.codeclimate.com/v1/badges/a987c7e7b35a6d3a8a56/maintainability)](https://codeclimate.com/github/kspalaiologos/GSQ-Assembly/maintainability)
 
 
 [![wercker status](https://app.wercker.com/status/d1c87e9394ae3df09c203ccec52d6436/m/master "wercker status")](https://app.wercker.com/project/byKey/d1c87e9394ae3df09c203ccec52d6436)
