@@ -1,0 +1,8 @@
+language: cpp
+script: g++ web/gsqasm.cpp -o web/gsqasm
+sudo: true
+addons:
+  apt:
+    packages:
+- build-essential
+- gcc-4.6-base cpp-4.6 lobgomp1 libquadmath0 libc6-dev
