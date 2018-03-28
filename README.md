@@ -81,14 +81,11 @@ means, useless code that author meant to be not-free.
 
 ## Misc
 
-This project is my attempt to create useful and full-featured java editor.
-Im thinking about it as editor focused on programming, but I might add something
-like Eclipse workspaces. GUI library that will be used for development is Java
-Swing. 
+This project is my attempt to create useful and full-featured processor architecture.
+Actually, this is not going to be the best thing ever created, but well, it's quite promising.
 
 ## New features?
 
-If you would want to create your own feature in MEdit. Check out [this](https://github.com/kspalaiologos/MEdit/blob/master/CONTRIBUTING.md) file for information.
+If you would want to have your own two cents in GSQ+, check out [this](https://github.com/kspalaiologos/GSQ-Assembly/blob/master/CONTRIBUTING.md) file for information.
 If you'd want to add your language support, just follow instructions from the wiki. Be sure
-to create a pull request! Please remember, I'm not going to merge PR's that is adding support for language
-that has basically no users (is unpopular).
+to create a pull request! Please remember, I'm not going to merge PR's that are aganist my idea for this project.
