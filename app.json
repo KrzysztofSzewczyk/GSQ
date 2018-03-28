@@ -1,0 +1,6 @@
+{
+  "name": "GSQ+ Assembly compiler",
+  "description": "Assembly compiler for my own processor architecture.",
+  "repository": "https://github.com/kspalaiologos/GSQ-Assembly",
+  "addons": []
+}
