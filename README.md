@@ -7,7 +7,7 @@
 [![wercker status](https://app.wercker.com/status/d1c87e9394ae3df09c203ccec52d6436/m/master "wercker status")](https://app.wercker.com/project/byKey/d1c87e9394ae3df09c203ccec52d6436)
 
 GSQ is processor architecture that was aimed at low cost and high speed. GSQ-Assembly is assembly compiler for GSQ architecture. Useful links:
- * [Project Documentation](https://kamilaszewczyk.github.io/GSQ-Assembly/).
+ * [Project Documentation](https://kamilaszewczyk.github.io/GSQ-Assembly/)
  * [Project WIKI](https://github.com/kspalaiologos/GSQ-Assembly/wiki)
  * [Issues](https://github.com/kspalaiologos/GSQ-Assembly/issues)
  * [Pull Requests](https://github.com/kspalaiologos/GSQ-Assembly/pulls)
@@ -80,6 +80,7 @@ means, useless code that author meant to be not-free.
 
 This project is my attempt to create useful and full-featured processor architecture.
 Actually, this is not going to be the best thing ever created, but well, it's quite promising.
+Please note that most things are not complete yet.
 
 ## New features?
 
