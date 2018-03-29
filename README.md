@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="Logo.png"></p>
+  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/kspalaiologos/GSQ-Assembly.svg?branch=master)](https://travis-ci.org/kspalaiologos/GSQ-Assembly)
 [![Join the chat at https://gitter.im/GSQ-Architecture/Lobby](https://badges.gitter.im/GSQ-Architecture/Lobby.svg)](https://gitter.im/GSQ-Architecture/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
