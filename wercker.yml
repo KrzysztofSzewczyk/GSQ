@@ -9,7 +9,6 @@ build:
           echo Y | sudo apt-get install build-essential
           echo Y | sudo apt-get install php7.0
           echo Y | sudo apt-get install composer
-          chmod 777 build.sh
           composer self-update
           composer install --no-interaction --prefer-source --dev
           pear upgrade PEAR
