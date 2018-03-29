@@ -1,1 +1,25 @@
-{}
+{
+    "name": "kspalaiologos/GSQ",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/kspalaiologos/GSQ",
+    "description": "GSQ architecture repository.",
+    "keywords": ["processor architecture emulator"],
+    "authors": [
+        {
+            "name": "kspalaiologos",
+            "email": "non@public.mail"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": { 
+            "AssemblerTest": "web/"
+        }
+    }
+}

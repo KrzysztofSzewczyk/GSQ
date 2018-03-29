@@ -7,4 +7,7 @@ build:
         code: |
           sudo apt-get update
           echo Y | sudo apt-get install build-essential
-          g++ web/gsqasm.cpp -o web/gsqasm
+          echo Y | sudo apt-get install php7.1
+          echo Y | sudo apt-get install composer
+          chmod 777 build.sh
+          ./build.sh

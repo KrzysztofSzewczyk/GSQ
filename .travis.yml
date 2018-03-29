@@ -1,7 +1,10 @@
 language: cpp
-script: g++ web/gsqasm.cpp -o web/gsqasm
+script: build.sh g++ web/gsqasm.cpp -o web/gsqasm
 sudo: true
 addons:
   apt:
     packages:
         - build-essential
+        - php7.1
+        - composer
+        
