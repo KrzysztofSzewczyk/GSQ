@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="Logo.png"></p>
+  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/kspalaiologos/GSQ-Assembly.svg?branch=master)](https://travis-ci.org/kspalaiologos/GSQ-Assembly)
 [![Join the chat at https://gitter.im/GSQ-Architecture/Lobby](https://badges.gitter.im/GSQ-Architecture/Lobby.svg)](https://gitter.im/GSQ-Architecture/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -82,6 +84,8 @@ means, useless code that author meant to be not-free.
 This project is my attempt to create useful and full-featured processor architecture.
 Actually, this is not going to be the best thing ever created, but well, it's quite promising.
 Please note that most things are not complete yet.
+
+Why new architecture? Take a look: https://xkcd.com/676/
 
 ## New features?
 
