@@ -83,6 +83,8 @@ This project is my attempt to create useful and full-featured processor architec
 Actually, this is not going to be the best thing ever created, but well, it's quite promising.
 Please note that most things are not complete yet.
 
+Why new architecture? Take a look: https://xkcd.com/676/
+
 ## New features?
 
 If you would want to have your own two cents in GSQ+, check out [this](https://github.com/kspalaiologos/GSQ-Assembly/blob/master/CONTRIBUTING.md) file for information.
