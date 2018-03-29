@@ -1,8 +1,9 @@
 language: cpp
 script:
-  - pear upgrade PEAR
-  - pear config-set auto_discover 1
-  - pear install pear.phpunit.de/PHPUnit
+  - wget -O phpunit https://phar.phpunit.de/phpunit-6.phar
+  - chmod +x phpunit
+  - ./phpunit --version
+  - ./phpunit --coverage-clover=coverage.xml
   - vendor/bin/phpunit --coverage-clover=coverage.xml
   - g++ web/gsqasm.cpp -o web/gsqasm
 sudo: true
