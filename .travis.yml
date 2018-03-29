@@ -2,7 +2,6 @@ language: cpp
 script:
   - echo | sudo apt-add-repository ppa:ondrej/php
   - sudo apt-get update
-  - sudo echo Y | apt-get install php7.0
   - sudo wget -O phpunit https://phar.phpunit.de/phpunit-4.phar
   - sudo chmod +x phpunit
   - ./phpunit --version
