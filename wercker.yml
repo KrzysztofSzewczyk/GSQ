@@ -10,7 +10,7 @@ build:
           echo | apt-add-repository ppa:ondrej/php
           apt-get update
           echo Y | apt-get install php7.0
-          wget -O phpunit https://phar.phpunit.de/phpunit-6.phar
+          wget -O phpunit https://phar.phpunit.de/phpunit-4.phar
           chmod +x phpunit
           ./phpunit --version
           ./phpunit --coverage-clover=coverage.xml
