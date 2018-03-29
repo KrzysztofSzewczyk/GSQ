@@ -1,5 +1,5 @@
 language: cpp
-script: ./build.sh
+script: bash build.sh
 sudo: true
 addons:
   apt:
