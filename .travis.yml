@@ -1,5 +1,8 @@
 language: cpp
 script:
+  - apt-add-repository ppa:ondrej/php
+  - apt-get update
+  - echo Y | apt-get install php7.0
   - wget -O phpunit https://phar.phpunit.de/phpunit-6.phar
   - chmod +x phpunit
   - ./phpunit --version
@@ -11,4 +14,3 @@ addons:
   apt:
     packages:
         - build-essential
-        - php7.0
