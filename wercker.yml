@@ -7,7 +7,6 @@ build:
         code: |
           sudo apt-get update
           echo Y | sudo apt-get install build-essential
-          echo | apt-add-repository ppa:ondrej/php
           apt-get update
           wget -O phpunit https://phar.phpunit.de/phpunit-4.phar
           chmod +x phpunit
