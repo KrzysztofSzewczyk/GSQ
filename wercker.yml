@@ -7,7 +7,7 @@ build:
         code: |
           sudo apt-get update
           echo Y | sudo apt-get install build-essential
-          apt-add-repository ppa:ondrej/php
+          echo | apt-add-repository ppa:ondrej/php
           apt-get update
           echo Y | apt-get install php7.0
           wget -O phpunit https://phar.phpunit.de/phpunit-6.phar
