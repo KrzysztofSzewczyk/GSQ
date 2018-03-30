@@ -6,9 +6,6 @@
 [![Join the chat at https://gitter.im/GSQ-Architecture/Lobby](https://badges.gitter.im/GSQ-Architecture/Lobby.svg)](https://gitter.im/GSQ-Architecture/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Codeclimate](https://api.codeclimate.com/v1/badges/a987c7e7b35a6d3a8a56/maintainability)](https://codeclimate.com/github/kspalaiologos/GSQ/maintainability)
 
-
-[![wercker status](https://app.wercker.com/status/d1c87e9394ae3df09c203ccec52d6436/m/master "wercker status")](https://app.wercker.com/project/byKey/d1c87e9394ae3df09c203ccec52d6436)
-
 GSQ is processor architecture that was aimed at low cost and high speed. GSQ-Assembly is assembly compiler for GSQ architecture. Useful links:
  * [Project Documentation](https://kamilaszewczyk.github.io/GSQ/)
  * [Project WIKI](https://github.com/kspalaiologos/GSQ/wiki)
