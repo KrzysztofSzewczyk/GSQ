@@ -6,7 +6,7 @@ build:
         name: make-all
         code: |
            sudo apt-get update
-           sudo apt-get install wget
+           sudo echo Y | apt-get install wget
            sudo wget -O phpunit https://phar.phpunit.de/phpunit-4.phar
            sudo chmod +x phpunit
            ./phpunit --version
