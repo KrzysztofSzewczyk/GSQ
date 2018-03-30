@@ -5,11 +5,10 @@ build:
     - script:
         name: make-all
         code: |
-          sudo apt-get update
-          echo Y | sudo apt-get install build-essential
-          apt-get update
-          wget -O phpunit https://phar.phpunit.de/phpunit-4.phar
-          chmod +x phpunit
-          ./phpunit --version
-          ./phpunit --coverage-clover=coverage.xml
-          g++ web/gsqasm.cpp -o web/gsqasm
+           echo | sudo apt-add-repository ppa:ondrej/php
+           sudo apt-get update
+           sudo wget -O phpunit https://phar.phpunit.de/phpunit-4.phar
+           sudo chmod +x phpunit
+           ./phpunit --version
+           ./phpunit --coverage-clover=coverage.xml
+           g++ web/gsqasm.cpp -o web/gsqasm
