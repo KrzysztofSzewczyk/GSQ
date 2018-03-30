@@ -103,7 +103,7 @@
                                                         <textarea id="gsqasmin" class="ogsq" rows="10" cols="80" name="input"></textarea>
                                                         <input type="submit" class="longestbutton" value="Submit Assembly and compile it to bytecode (overwrite raw loading box)">
                                                 </form>
-                                                <iframe id="ifgsqoi" name="ifgsqo" style="width:1; height:1; border:0; border:none">
+                                                <iframe id="ifgsqoi" name="ifgsqo" style="width:0; height:0; border:0; border:none;">
                                                 </iframe>
                                         </td>
                                 </tr>
