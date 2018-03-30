@@ -5,7 +5,6 @@ build:
     - script:
         name: make-all
         code: |
-           echo | sudo apt-add-repository ppa:ondrej/php
            sudo apt-get update
            sudo wget -O phpunit https://phar.phpunit.de/phpunit-4.phar
            sudo chmod +x phpunit
