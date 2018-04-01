@@ -1,9 +1,0 @@
-
-box: ubuntu
-build:
-  steps:
-    - script:
-        name: make-all
-        code: |
-           sudo apt-get update
-           g++ web/gsqasm.cpp -o web/gsqasm
