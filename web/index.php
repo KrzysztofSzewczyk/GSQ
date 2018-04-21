@@ -35,13 +35,6 @@
                                                                         <button onClick="machineSubmit()" class="genericbutton">Submit</button>
                                                                 </div>
                                                         </div>
-                                                        <div>
-                                                                <div class="inlined">Bytecode (.BC):</div>
-                                                                <div class="inlined">
-                                                                        <input id="file-input2" type="file" name="name" />
-                                                                        <button onClick="bytecodeSubmit()" class="genericbutton">Submit</button>
-                                                                </div>
-                                                        </div>
                                                 </div>
                                         </td>
                                         <td valign="top" valign="top" class="smaller">
@@ -53,9 +46,9 @@
                                         </td>
                                         <td rowspan="2" valign="top">
                                                 Load Bytecode directly:
--                                               <textarea id="gsqdir" rows="20" cols="25" class="ogsq"></textarea>
--                                               <button onClick="rawBytecode()" class="genericbutton widthybutton">Submit</button>
--                                               <hr>
+                                                <textarea id="gsqdir" rows="20" cols="25" class="ogsq"></textarea>
+                                                <button onClick="rawBytecode()" class="genericbutton widthybutton">Submit</button>
+                                                <hr>
                                                 GSQ+ utilities: <br>
                                                 <a href="https://gist.github.com/kspalaiologos/95fe195653ceff9570470b2cc076fc13/raw/a195950847a6c97d23d5fb99a41e6a4081a141b2/sq2gsq.c">BC to BIN compiler (source)</a><div></div>
                                                 <a href="https://gist.github.com/kspalaiologos/7adf30666418209990fa2ca28a4bc344/raw/d46c82d5b13b09a53545cfb9c6d000db87906536/sq2gsq.exe">BC to BIN compiler (binary)</a><div></div>
